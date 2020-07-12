@@ -16,4 +16,4 @@ def organizePhotos(targetFolder):
             print(f'Copying file {file}...')
             shutil.move(os.path.join(folder,file),os.path.join(targetFolder,year,month,file))
     print('Done.')
-organizePhotos('/users/neilbarry/desktop/phototest')
+
